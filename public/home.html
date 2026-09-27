@@ -6,6 +6,19 @@
     <title>Home Page</title>
   </head>
   <body>
+
     <h2>Home Page</h2>
+    <h3>Search</h3>
+    <form method="GET" action="/search">
+      <input type="text" name="keyword">
+      <button>Search</button>
+    </form>
+
+    <h3>Register</h3>
+    <form method="POST" action="/register">
+      <input type="text" name="username">
+      <input type="email" name="email">
+      <button>Register</button>
+    </form>
   </body>
 </html>

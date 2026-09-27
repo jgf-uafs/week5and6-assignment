@@ -4,6 +4,7 @@
   "description": "### Objective:",
   "main": "server.js",
   "scripts": {
+    "devStart": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
@@ -19,6 +20,10 @@
   },
   "homepage": "https://github.com/UAFS-CSCE20303/week5and6-assignment#readme",
   "dependencies": {
+    "ejs": "^6.0.1",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
